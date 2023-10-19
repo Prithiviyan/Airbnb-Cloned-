@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav a{
+    color: #FF385C;
+    text-decoration: none;
+    font-size: 45px;
+}
+.snav{
+    border: black solid 1px;
+    border-radius: 30px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.para{
+    padding-right: 10px;
+    border-right: solid grey 2px;
+    
+
+}
+.login{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+.images{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+padding: 10px;
+
+}
+.pic img{
+    width: 300px;
+    height: 300px;
+   border-radius: 5%;
+   padding: 5px;
+   transition: transform 0.3s 0;
+}
+.pic img:hover{
+   transform:translateX(20px);
+}
+.pic p{
+    margin-left: 20px;
+}
+.flr{
+    float: right;
+    margin-right: 20px;
+}
+.menu,.navbar{
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+.pic p{
+    padding: 5px;
+}
+.footer{
+    position: sticky;
+    bottom: 0%;
+    background-color: white;
+    font-size: 12px;
+}
+
